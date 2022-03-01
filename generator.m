@@ -1,4 +1,4 @@
 function result = generator(x, density)
-    result = mod(x*13, 1); 
+    result = mod(x*density, 1); 
 end
 
