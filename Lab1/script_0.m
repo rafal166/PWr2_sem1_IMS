@@ -16,8 +16,13 @@ grid on;
 plot(X, Y1);
 plot(X, Y2);
 plot(X, Y3);
+legend('f(x)','F(x)','F{-1}(y)')
+xlabel('Numer próbki')
+ylabel('Wartoœæ próbki')
 
 figure();
 
 histogram(Y3)
+xlabel('Wartoœci próbek')
+ylabel('Iloœæ próbek danej wartoœci')
 

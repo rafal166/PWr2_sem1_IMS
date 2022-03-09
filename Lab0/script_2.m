@@ -1,10 +1,10 @@
 clear;
 close all;
 
-X0 = 2; %wartoœæ startowa
-A = 1:1:10000; %wektor do przemna¿ania
+X0 = 5; %wartoœæ startowa
+A = 1:1:1000; %wektor do przemna¿ania
 c = 2; % sta³a
-m = 7.56;
+m = 16.56;
 
 
 result = randomGenerator(X0, A, m, c)

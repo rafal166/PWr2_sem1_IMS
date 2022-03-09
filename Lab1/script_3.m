@@ -14,5 +14,6 @@ grid on;
 plot(X, Y3);
 
 figure();
-
 histogram(Y3)
+xlabel('Wartoœci próbek')
+ylabel('Iloœæ próbek danej wartoœci')

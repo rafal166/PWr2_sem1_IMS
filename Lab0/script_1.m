@@ -1,7 +1,7 @@
 clear;
 close all;
 
-result = generatorPseudoRandNumbers(0.1, 40000);
+result = generatorPseudoRandNumbers(0.33, 100, 3);
 
 dziedzina = 0:(length(result)-1);
 
